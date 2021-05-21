@@ -2,15 +2,19 @@ import React from 'react'
 import './Login.css'
 const gotoadmin = ()=>{
     let ans = prompt("Plese Enter The Secrect Code");
+     let pg = document.getElementById("Login_page");
+
     if(ans == 'gotoadmin')
     {
-         
+        pg.classList.add("login_done")
         window.location.href = './Admin'
     }
  
 }
 
 const gotoUser = ()=>{
+    let pg = document.getElementById("Login_page");
+    pg.classList.add("login_done")
     window.location.href = '/User'
 }
 

@@ -13,7 +13,7 @@ let user = true;
 function App() {
   return (
     <>
-       
+         
       <div className="app">
         <BrowserRouter>
           <Switch>
@@ -21,7 +21,9 @@ function App() {
             <Route exact path="/Admin" component={Admin}/>
             <Route exact path="/Table" component={Table1}/>
             <Route exact path="/User" component={Users}/>
+            <Redirect to="/" /> 
           </Switch>
+          
         </BrowserRouter>
       </div>
     </>

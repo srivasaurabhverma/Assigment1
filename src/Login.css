@@ -79,7 +79,9 @@
     outline: none;
      
 }
-
+.login_done{
+  visibility: hidden;
+}
 @media only screen and (max-width: 1000px) {
   
 .login_image {
