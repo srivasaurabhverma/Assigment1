@@ -28,6 +28,5 @@
 ## Pc_View of User Page
 
 ![image](https://github.com/srivasaurabhverma/Assigment1/blob/master/images/userpage.png)
-
-## Check out This Link : (https://srivasaurabhverma.github.io/)
+ 
 
