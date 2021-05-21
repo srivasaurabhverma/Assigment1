@@ -1,0 +1,179 @@
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 233px;
+    background-color: #2f4858 ;
+    z-index: 10;
+    top:0;
+}
+
+.Sidebarlist{
+    /* position:absolute; */
+    /* display: flex; */
+    position: relative;
+    top:30vh;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.Sidebarlist .row_{
+    width: 100%;
+    height: 60px;
+   /* border: 1px solid black; */
+   list-style-type: none;
+   margin: 0;
+   display: flex;
+   color: white;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row_:hover{
+    background-color:#293846;
+    cursor: pointer;
+}
+
+.row_ #icon{
+    flex:30%;
+    display: grid;
+    place-items: center;
+}
+
+.row_ #title{
+    flex:70%;
+}
+
+.main{
+    width: 100%;
+}
+#active{
+    background-color:#293846;
+}
+.Details{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    /* position: relative; */
+    left: 7%;
+    top: 12%;
+}
+.avatar
+{ 
+     /* flex: 23%; */
+     width: fit-content; 
+     
+     background-size: cover;
+}
+.name{
+    flex:80%;
+    width: fit-content;
+    color: white;
+    margin-left: 17px;
+    margin-top: 1.3%;
+    padding: 4px 7px;
+}
+
+.logout{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
+     flex-direction: column;
+     left:9%;
+     
+}
+
+.icon_logout{
+     color: white;
+     font-weight: bold;
+}
+
+.Data{
+   color: white;
+   font-size: small;
+   margin-top: 3%;
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+
+.down_{
+    display: flex;
+    color: white;
+    position: absolute;
+    top:21%;
+    /* border-bottom: 2px solid #293846; */
+     
+
+}
+
+.options{
+     margin:2px 32%;
+     
+}
+.options:hover{
+    cursor: pointer;
+}
+
+.line_break{
+     position: absolute;
+    top:27%;
+    width: 100%;
+    color:  #293846;
+}
+.MuiSvgIcon-root{
+    color: white;
+}
+
+@media only screen and (max-width: 1039px) {
+    .sidebar{
+        width: 11vw;
+    }
+
+    .name{
+        visibility: hidden;
+    }
+    #searchbar{
+        visibility: hidden;
+    }
+    #messagebar{
+        visibility: hidden;
+    }
+  }
+
+  
+  @media only screen and (max-width: 733px) {
+     .sidebar{
+         width: 8vw;
+     }
+
+     #title{
+         visibility: hidden;
+     }
+     .Sidebarlist{
+          margin: auto;
+     }
+     .Sidebarlist .row_{
+         display: inline;
+          
+     }
+     #icon {
+         margin-top: 7px;
+     }
+     #notication{
+        display: block;
+        margin-left: 1.7vw;
+     }
+  }
+
+  @media only screen and (max-width: 470px) {
+      .sidebar{
+          width: 13vw;
+      }
+
+ }

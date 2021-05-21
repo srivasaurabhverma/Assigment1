@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+.Login_page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.login_image {
+  position: relative;
+  clip-path: circle(50% at 50% 50%);
+  left: 43vw;
+  top: 10vh;
+}
+
+.user_title {
+  text-align: center;
+  margin-top: 17vh;
+  color: white;
+  font-family: "Pattaya", sans-serif;
+}
+
+.main_login {
+  position: absolute;
+  left: 40vw;
+  margin-top: 12vh;
+}
+
+#Admin {
+   
+  outline: none;
+  width: 10vw;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+}
+
+#User {
+  /* border: 1px solid white; */
+  outline: none;
+  width: 10vw;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+}
+
+#User:hover{
+    border: 1px solid white;
+
+}
+#Admin:hover{
+    border: 1px solid white;
+
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    border:2px solid white;
+    width: fit-content;
+    height: 25vh;
+}
+
+#check_text{
+    width: 10vw;
+    border-radius: 23px;
+    outline: none;
+    
+}
+
+#input_submit{
+    width: 7vw;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    outline: none;
+     
+}
+
+@media only screen and (max-width: 1000px) {
+  
+.login_image {
+  position: relative;
+  clip-path: circle(50% at 50% 50%);
+  left: 41vw;
+  top: 10vh;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .login_image {
+    position: relative;
+    clip-path: circle(50% at 50% 50%);
+    left: 39vw;
+    top: 10vh;
+  }
+  
+  }
+
+  @media only screen and (max-width: 675px) {
+  
+    .login_image {
+      position: relative;
+      clip-path: circle(50% at 50% 50%);
+      left: 35vw;
+      top: 10vh;
+    }
+    
+    }
+    @media only screen and (max-width: 480px) {
+  
+      .login_image {
+        position: relative;
+        clip-path: circle(50% at 50% 50%);
+        left: 31vw;
+        top: 10vh;
+      }
+      
+      }
+
+      @media only screen and (max-width: 480px) {
+  
+        .login_image {
+          position: relative;
+          clip-path: circle(50% at 50% 50%);
+          left: 26vw;
+          top: 10vh;
+        }
+        #Admin{
+          width: 16vw;
+           
+        }
+        #User{
+          width: 16vw;
+         
+        }
+        .main_login{
+          left:29vw;
+        }
+        }
