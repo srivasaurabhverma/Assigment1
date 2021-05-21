@@ -4,7 +4,7 @@
 
  # For checking
 
- please Download the file , then run the comman npm install, After installing run npm start you are able to see the UI.
+ please Download the file , then run the command **npm install**, After installing run **npm start** you are able to see the UI.
 
 
 **Key Feature**
