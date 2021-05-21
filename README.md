@@ -1,4 +1,4 @@
-  # Assigment 1
+ # Assigment 1
 
  It's a three page working app using React, material-ui,Hooks,Router,firebase.
 
@@ -24,3 +24,7 @@
 ## PC_View of Table page
 
 ![image](https://github.com/srivasaurabhverma/Assigment1/blob/master/images/Table.png)
+
+## Pc_View of User Page
+
+![image](https://github.com/srivasaurabhverma/Assigment1/blob/master/images/userpage.png)
